@@ -1,1 +1,2 @@
-print("Olá, Mundo!")
+msg_inicial = 'Olá, Mundo!'
+print(msg_inicial)
