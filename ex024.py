@@ -1,4 +1,5 @@
-cidade = str(input('Insira o nome da cidade: ')).lower()
-jls_extract_var = 'sto'
-tem_santo = cidade.find('santo''sto')
+cidade = str(input('Insira o nome da cidade: ')).lower().split()
+
+
+tem_santo = cidade[0].find('santo')
 print(tem_santo)
