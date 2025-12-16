@@ -1,4 +1,7 @@
 numero = input('Digite um número: ')
 
 
-#print('unidade: {} \ndezena: {}\ncentena: {}\nmilhar: {}'. format(numero[3:4], numero[2:3], numero[1:2], numero[0:1]))
+tamanho = len(numero)
+numero = numero[tamanho::-1]
+
+print('unidade: {} \ndezena: {}\ncentena: {}\nmilhar: {}'. format(numero[0], numero[1], numero[2], numero[3]))
