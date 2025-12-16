@@ -7,7 +7,6 @@ alunos = ('Rafael', 'Maria', 'Joana', 'Pedro')
 alunos_sorteados = random.sample(alunos,4)
 
 
-
 print("""\nA ordem de apresentação dos trabalhos será feita por sorteio do nome do integrante do grupo! 
 Logo, a ordem de apresentação será:\n""")
 
