@@ -1,4 +1,4 @@
-nome = str(input('Digite o nome completo: ')).strip().split()
+nome = str(input('Digite o nome completo: ')).title().strip().split()
 
 qtd_nomes = len(nome)
 print(qtd_nomes)
